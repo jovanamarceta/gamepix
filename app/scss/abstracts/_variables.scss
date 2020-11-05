@@ -1,0 +1,27 @@
+// Fonts
+$font-primary:  Arial, sans-serif;
+
+// Widths
+$lg: 1440px;
+$md: 768px;
+$sm: 375px;
+
+
+// Radius
+$radius-button: 5px;
+
+// Colors
+$black: #000;
+$white: #fff;
+$purple-dark: #140A1C;
+$yellow: #E4A101;
+
+$site-colors: (
+	'black': $black,
+	'white': $white,
+	'purple-dark': $purple-dark
+) !default;
+
+
+
+
