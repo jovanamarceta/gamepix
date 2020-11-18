@@ -3,7 +3,8 @@ $font-primary: 'Poppins', Arial, sans-serif;
 $font-secondary: 'Oxanium', sans-serif;
 
 // Widths
-$lg: 1440px;
+$xl: 1440px;
+$lg: 992px;
 $md: 768px;
 $sm: 375px;
 
@@ -18,7 +19,8 @@ $yellow: #E4A101;
 $site-colors: (
 	'black': $black,
 	'white': $white,
-	'purple-dark': $purple-dark
+	'purple-dark': $purple-dark,
+	'gray': $gray
 ) !default;
 
 

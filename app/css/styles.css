@@ -16,6 +16,12 @@
 .color-purple-dark {
   color: #140A1C; }
 
+.bg-gray {
+  background-color: #90949c; }
+
+.color-gray {
+  color: #90949c; }
+
 * {
   box-sizing: border-box; }
   *::before, *::after {
@@ -144,16 +150,33 @@ body {
   max-width: 1230px;
   margin: 0 auto;
   width: 100%; }
+  @media only screen and (max-width: 1440px) {
+    .wrapper {
+      padding: 0 20px; } }
 
 .container {
   max-width: 1230px; }
 
+.link-footer {
+  color: #E4A101;
+  font-weight: bold; }
+
 .footer {
   padding: 20px 0; }
 
-.footer__bottom {
+.footer__container {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .footer__bottom-text {
-    color: #90949c; }
+
+.footer__container-text {
+  font-weight: 500; }
+
+.footer__container-img {
+  width: 340px; }
+  @media only screen and (max-width: 768px) {
+    .footer__container-img {
+      width: 240; } }
+  @media only screen and (max-width: 375px) {
+    .footer__container-img {
+      display: none; } }
